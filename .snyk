@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - karma-dart > dart2jsaas > q-io > mime:
+        patched: '2025-12-12T06:56:52.063Z'
+        id: 'npm:mime:20170907'
+        path: karma-dart > dart2jsaas > q-io > mime
